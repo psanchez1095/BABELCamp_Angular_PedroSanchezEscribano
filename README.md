@@ -9,7 +9,7 @@ Repositorio dedicado a las diferentes prácticas angular realizadas en la segund
 **Esta segunda parte esta relacionada con ANGULAR**
 
 
-## [tienda](https://github.com/psanchez1095/BABELCamp_Angular_PedroSanchezEscribano/tree/main/tienda)  
+## [Tienda](https://github.com/psanchez1095/BABELCamp_Angular_PedroSanchezEscribano/tree/main/tienda)  
 
 ***Tienda***
 
