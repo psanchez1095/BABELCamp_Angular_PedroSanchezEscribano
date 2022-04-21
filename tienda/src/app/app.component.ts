@@ -10,11 +10,9 @@ import { ProductosService } from './service/productos.service';
 export class AppComponent {
   seccion: string ="";
   productos: Producto[] | undefined;
-
-  constructor(private service : ProductosService){
-
-
-  }
+  
+  constructor(private service : ProductosService){}
+  
 
   busqueda(){
     this.service.buscar(this.seccion).subscribe(data => this.productos=data);
