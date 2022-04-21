@@ -17,5 +17,15 @@ Proyecto Front Tienda
 * Implementación del servicio productos el cual tiene un método búsqueda que realiza una petición
 GET a la aplicación SPRING
 
+## [Academia](https://github.com/psanchez1095/BABELCamp_Angular_PedroSanchezEscribano/tree/main/academia)  
+
+***Academia***
+
+Proyecto Front Academia
+* Implementación del servicio alumnos el cual:
+ * Tiene un método búsqueda que realiza una petición GET a la aplicación SPRING buscando un usuario
+ * Tiene un método que se encarga de realizar una petición GET a la aplicación SRING buscando la lista de cursos disponibles
+
+
 
 # OTROS  
