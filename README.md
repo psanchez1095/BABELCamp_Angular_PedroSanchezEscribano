@@ -4,9 +4,9 @@
 
 **Descripcion**  
  
-Repositorio dedicado a las diferentes prácticas angular realizadas en la segunda parte del BABELCamp de 2022 que imparte [Babel](https://www.babelgroup.com/)
+Repositorio dedicado a las diferentes prácticas angular realizadas en la **segunda parte** del BABELCamp de 2022 que imparte [Babel](https://www.babelgroup.com/)
 
-**Esta segunda parte esta relacionada con ANGULAR**
+**REPOSITORIO ANGULAR**
 
 
 ## [Tienda](https://github.com/psanchez1095/BABELCamp_Angular_PedroSanchezEscribano/tree/main/tienda)  
