@@ -13,7 +13,7 @@ export class FormAlumnosByCursoComponent {
   title:string = "Buscador de Alumnos"
   curso: string ="";
   alumno: string ="";
-  cursos: String[] | undefined;
+  cursos: Curso[] | undefined;
   alumnosCurso: Alumno[] | undefined;
   alumnosString: String[] | undefined;
 

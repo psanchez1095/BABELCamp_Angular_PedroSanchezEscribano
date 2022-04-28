@@ -3,35 +3,19 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-menuBusquedas',
   templateUrl: './menuBusquedas.component.html',
-  styleUrls: ['./menuBusquedas.component.css']
+  styleUrls: ['./menuBusquedas.component.css'],
 })
 export class MenuBusquedasComponent implements OnInit {
+  constructor(private router: Router) {}
 
-  constructor(
-    private router: Router,
-  ) {
-    
-  
+  ngOnInit() {}
+  routeAlumnosByCurso() {
+    this.router.navigate(['/alumnosByCurso']);
   }
-
-  ngOnInit() {
+  routeCursosByAlumno() {
+    this.router.navigate(['/cursosByAlumno']);
   }
-  routeAlumnosByCurso(){
-    this.router.navigate([
-      '/alumnosByCurso'
-    
-    ]);
-  }
-  routeCursosByAlumno(){
-    this.router.navigate([
-      '/cursosByAlumno'
-    
-    ]);
-  }
-  routeindex(){
-    this.router.navigate([
-      ''
-    
-    ]);
+  routeindex() {
+    this.router.navigate(['']);
   }
 }
