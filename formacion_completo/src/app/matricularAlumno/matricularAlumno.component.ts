@@ -28,6 +28,7 @@ export class MatricularAlumnoComponent  {
 
   matricularAlumnoCurso(){
     this.service.matricularAlumno(this.idCurso,this.alumno).subscribe(data => console.log(data));
+    this.routeindex()
   }
   routeindex(){
     this.router.navigate([
