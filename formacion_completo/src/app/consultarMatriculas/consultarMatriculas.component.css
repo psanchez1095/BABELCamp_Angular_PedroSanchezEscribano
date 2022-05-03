@@ -41,11 +41,13 @@ input {
   background-color: black;
   color: white;
   font-family: "Teko", sans-serif;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 .inputDate{
-    width: 100%;
+    width: 15vw;
     background-color: white;
-  color: black;
+    color: black;
 }
 a {
   color: black;

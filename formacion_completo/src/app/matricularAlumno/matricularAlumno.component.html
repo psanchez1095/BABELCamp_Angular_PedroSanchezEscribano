@@ -3,7 +3,7 @@
   <div id="divDer">
     <br /><br />
 
-    
+
     <select name="cursos" [(ngModel)]="idCurso">
       <option *ngFor="let curso of cursos" [ngValue]="curso.idCurso">
         {{ curso.nombre }}
@@ -16,11 +16,7 @@
       </option>
     </select>
 
-    <input
-      type="button"
-      value="Matricular Alumno Curso"
-      (click)="matricularAlumnoCurso()"
-    />
+    <input type="button" value="Matricular Alumno Curso" (click)="matricularAlumnoCurso()" />
   </div>
 </div>
 

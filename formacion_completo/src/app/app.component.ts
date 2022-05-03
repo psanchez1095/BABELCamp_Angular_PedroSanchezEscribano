@@ -11,6 +11,7 @@ import { Router } from '@angular/router';
 })
 
 export class AppComponent {
+  
   title: string = 'Menú Búsqueda';
   curso: string = '';
   alumno: string = '';
@@ -53,8 +54,6 @@ export class AppComponent {
   routeindex() {
     this.router.navigate(['']);
   }
-
-  //NUEVO
 
   routeMatricularAlumno() {
     this.router.navigate(['/matricularAlumno']);

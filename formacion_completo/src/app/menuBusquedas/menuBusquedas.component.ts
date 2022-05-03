@@ -5,16 +5,18 @@ import { Router } from '@angular/router';
   templateUrl: './menuBusquedas.component.html',
   styleUrls: ['./menuBusquedas.component.css'],
 })
-export class MenuBusquedasComponent implements OnInit {
-  constructor(private router: Router) {}
+export class MenuBusquedasComponent {
 
-  ngOnInit() {}
+  constructor(private router: Router) {}
+  
   routeAlumnosByCurso() {
     this.router.navigate(['/alumnosByCurso']);
   }
+
   routeCursosByAlumno() {
     this.router.navigate(['/cursosByAlumno']);
   }
+
   routeindex() {
     this.router.navigate(['']);
   }
