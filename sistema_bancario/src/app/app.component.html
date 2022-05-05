@@ -1,0 +1,39 @@
+<body>
+  <h1>Movimientos por rango de tiempo</h1>
+</body>
+<div id="divMain">
+  <div id="divIzq">
+    <br /><br />
+    <label>Numero de Cuenta</label>
+    <input class="inputDate" type="number" [(ngModel)]="numeroCuenta" />
+
+    <input class="inputDate" type="date" value="BuscadorAlumnosCurso" [(ngModel)]="dateIni" />
+
+    <input class="inputDate" type="date" value="BuscadorAlumnosCurso" [(ngModel)]="dateFin" />
+
+    <input type="button" id="submitButton" value="Buscador Movimientos Por Rango de Fecha" (click)="consultarMovimientos()" />
+  </div>
+</div>
+
+<div id="divTables">
+  <table [hidden]="tableMovimientosHidden" border="2">
+    <thead>
+      <tr>
+        <th>Fecha Inicio</th>
+        <th>Operacion</th>
+        <th>Cantidad</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let p of movimientos">
+        <td>{{ p.fecha}}</td>
+        <td>{{ p.operacion}}</td>
+        <td>{{ p.cantidad }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<br /><br />
+
+<router-outlet></router-outlet>

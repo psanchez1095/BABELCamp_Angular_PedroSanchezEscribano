@@ -1,0 +1,103 @@
+/*Fuente de Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+    
+
+/*Quitar margin y padding por defecto*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: ghostwhite;
+}
+
+h1{
+    color:white;
+	text-align : center;
+	font-family: "Teko", sans-serif;
+	margin-top:2%;
+	margin-bottom:2%;
+}
+
+h2 {
+  margin-top: 2%;
+  text-align: center;
+  font-family: "Teko", sans-serif;
+}
+#divMain {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#divIzq {
+  display: flex;
+  flex-direction: row;
+  margin-right: 2%;
+}
+#divDer {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2%;
+}
+select {
+  font-size: x-large;
+  font-family: "Teko", sans-serif;
+}
+option {
+  font-family: "Teko", sans-serif;
+}
+input {
+  font-size: x-large;
+  margin-left: 5%;
+  background-color: white;
+  color: darkslateblue;
+  font-family: "Teko", sans-serif;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.inputDate{
+    width: 20vw;
+    background-color: white;
+    color: black;
+}
+a {
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+tr,th,td{
+    text-align:center;
+    border:1px solid darkslateblue;
+    background-color: white;
+}
+table {
+  width:35%;
+  background-color: white;
+  margin: 5%;
+  border-collapse:collapse;
+  font-family: "Teko", sans-serif;
+  font-size: x-large;
+  color:darkslateblue
+}
+#divTables {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+label{
+    color:white;
+    width: 30%;
+    font-size: x-large;
+    font-family: "Teko", sans-serif;
+}
+#submitButton:hover{
+    border: 3px solid white;
+    background-color:darkslateblue;
+    color:white;
+}
+
