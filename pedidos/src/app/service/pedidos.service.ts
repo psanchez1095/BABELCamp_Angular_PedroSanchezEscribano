@@ -1,19 +1,19 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Pedido } from '../model/Pedido';
 
 @Injectable({
   providedIn: 'root'
 })
 export class PedidosService {
 
-  urlPedidos: string =
-  'http://localhost:7500/pedidos';
+  url:string="http://localhost:10000";
 
-  urlProductos: string =
-  'http://localhost:7000/productos';
+  constructor(private http:HttpClient) { }
 
-cursos: string[] | undefined;
-constructor(private http: HttpClient) { }
+  buscarPedidos(){
+    return this.http.get<Pedido[]>(`${this.url}` + "/spedidos/pedidos/Pedidos");
+  }
 
 
 }

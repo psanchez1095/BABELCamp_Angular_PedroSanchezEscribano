@@ -10,10 +10,10 @@
     </thead>
     <tbody>
       <tr *ngFor="let p of pedidos">
-        <td>{{ p }}</td>
-        <td>{{ p }}</td>
-        <td>{{ p }}</td>
-        <td>{{ p }}</td>
+        <td>{{ p.idPedido }}</td>
+        <td>{{ p.codigoProducto }}</td>
+        <td>{{ p.unidades }}</td>
+        <td>{{ p.fechaPedido }}</td>
       </tr>
     </tbody>
   </table>

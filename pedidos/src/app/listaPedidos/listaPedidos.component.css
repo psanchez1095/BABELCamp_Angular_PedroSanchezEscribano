@@ -57,7 +57,11 @@ table {
   color: white;
 }
 th{
-  padding:2%
+  padding:2%;
+  
+}
+td{
+    text-align:center;
 }
 #divTables {
  

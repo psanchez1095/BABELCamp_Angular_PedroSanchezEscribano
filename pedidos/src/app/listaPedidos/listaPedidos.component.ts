@@ -1,6 +1,8 @@
 
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { Pedido } from '../model/Pedido';
+import { PedidosService } from '../service/pedidos.service';
 
 
 @Component({
@@ -12,4 +14,14 @@ export class ListaPedidosComponent {
   title = 'permisos';
   tablePedidosHidden:boolean = false;
   pedidos: Pedido[] = [];
+  constructor(private service : PedidosService,private router: Router){
+    service.buscarPedidos().subscribe(data => this.pedidos=data)
+  }
+
+  routeindex(){
+    this.router.navigate([
+      ''
+    
+    ]);
+  }
 }
