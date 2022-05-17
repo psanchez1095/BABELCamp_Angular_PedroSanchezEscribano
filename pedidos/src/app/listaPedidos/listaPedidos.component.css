@@ -52,8 +52,7 @@ table {
   width: 50%;
   margin: 5%; 
    background-color: white;
-  font-family: "Teko", sans-serif;
-  font-size: x-large;
+  font-family: "Satisfy", sans-serif;
   color: white;
 }
 th{
@@ -62,6 +61,10 @@ th{
 }
 td{
     text-align:center;
+    
+}
+thead,tbody,th,tr,td{
+    background-color:rgb(49, 85, 71);
 }
 #divTables {
  

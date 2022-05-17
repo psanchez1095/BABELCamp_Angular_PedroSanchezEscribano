@@ -2,5 +2,8 @@
 *{
     margin: 0;
     padding: 0;
-    background-color:rgb(49, 153, 111);
+    
+}
+body{
+    background-color:rgb(49, 85, 71);
 }
