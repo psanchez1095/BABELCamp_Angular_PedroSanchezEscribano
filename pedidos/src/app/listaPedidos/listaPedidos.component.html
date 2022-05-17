@@ -1,0 +1,21 @@
+<div id="divTables">
+  <table [hidden]="tablePedidosHidden" border="2">
+    <thead>
+      <tr>
+        <th>Numero de Pedido</th>
+        <th>Producto</th>
+        <th>Total</th>
+        <th>Fecha Pedido</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let p of pedidos">
+        <td>{{ p }}</td>
+        <td>{{ p }}</td>
+        <td>{{ p }}</td>
+        <td>{{ p }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
