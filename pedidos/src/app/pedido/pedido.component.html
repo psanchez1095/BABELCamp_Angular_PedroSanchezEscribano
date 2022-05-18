@@ -1,0 +1,22 @@
+<h2>{{ title }}</h2>
+<div id="divMain">
+  <div id="divIzq">
+    <br /><br />
+    <select name="cursos" [(ngModel)]="producto">
+      <option *ngFor="let producto of productos">
+        {{ producto.producto }}
+      </option>
+    </select>
+
+    <input id="inputNumber"
+      type="number"
+      value="BuscadorAlumnosCurso"
+      
+    />
+  </div>
+</div>
+
+
+
+<br /><br />
+<input type="submit" (click)="routePedidos()" value="Lista de Pedidos" />

@@ -6,12 +6,14 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { ListaPedidosComponent } from './listaPedidos/listaPedidos.component';
 import { HeaderComponent } from './header/header.component';
+import { PedidoComponent } from './pedido/pedido.component';
 
 @NgModule({
-  declarations: [		
+  declarations: [			
     AppComponent,
       ListaPedidosComponent,
-      HeaderComponent
+      HeaderComponent,
+      PedidoComponent
    ],
   imports: [
     BrowserModule,
